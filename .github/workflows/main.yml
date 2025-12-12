@@ -60,5 +60,5 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          name:tach_PDF
-          path:tach_PDF.exe
+          name: tach_PDF
+          path: dist/tach_PDF.exe
